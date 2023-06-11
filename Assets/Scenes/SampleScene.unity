@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4488315, g: 0.4988926, b: 0.57569844, a: 1}
+  m_IndirectSpecularColor: {r: 0.4512598, g: 0.50095344, b: 0.5734311, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: 23,7
 --- !u!222 &45588264
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -415,7 +415,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: 11/06/2023
 --- !u!222 &134053767
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: 12:01:45
 --- !u!222 &187974792
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -893,6 +893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -969,13 +970,39 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.36323088, y: 0.05460932, z: -0.13827986, w: 0.9197607}
+  m_LocalRotation: {x: 0.94462794, y: 0.051256504, z: -0.17934318, w: 0.26997584}
   m_LocalPosition: {x: 0, y: 26.21, z: -0.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 43.1, y: 0, z: -17.1}
+  m_LocalEulerAnglesHint: {x: 148.1, y: 21.5, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523beff756a6bd040a4d832c3a4f4e0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  latitudeInput: {fileID: 192521727}
+  longitudeInput: {fileID: 72726999}
+  currentDateInput: {fileID: 1706568434}
+  timeIpnut: {fileID: 854076264}
+  sun: {fileID: 705507993}
+  sunLight: {fileID: 705507994}
+  latitude: -3
+  longitude: 0
+  currentDate: 0
+  currentMonth: 0
+  currentYear: 0
+  second: 0
+  minute: 0
+  hour: 0
 --- !u!1 &719571823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,7 +1152,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: 23,7
 --- !u!222 &850964719
 CanvasRenderer:
   m_ObjectHideFlags: 0
